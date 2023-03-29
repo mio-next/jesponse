@@ -1,0 +1,23 @@
+{
+    "name": "mio-next/jesponse",
+    "description": "JSON response helper for symfony/http based application",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "symfony/http-foundation": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MioNext\\Jesponse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mio",
+            "email": "dev@mio.cn"
+        }
+    ],
+    "minimum-stability": "stable"
+}
